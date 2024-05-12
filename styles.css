@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+.gridSquares {
+    display: flex;
+    height: 240px;
+    flex-wrap: wrap;
+    width: 240px;
+}
+
+.square {
+    align-items: center;
+    border: solid 1px grey;
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    width: 40px;
+}
+
+.obstacle {
+    background: repeating-linear-gradient(135deg, white 0 3px, slateGrey 5px 7px);
+    border-color: slateGrey;
+}
+
+.start-point {
+    background: radial-gradient(circle at center, lightcoral 0 30%, white 32%);
+}
+
+.path {
+    background: radial-gradient(circle at center, orange 0 25%, white 27%);
+}
+
+.end-point {
+    background: radial-gradient(circle at center, lightgreen 0 30%, white 32%);
+}
